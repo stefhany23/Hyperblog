@@ -2,19 +2,39 @@ body
 {
     color: blue;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
+#cabecera {
+    background: rgb(199, 3, 249);
+    box-shadow: 13px 21px 63px 7px rgba(0,0,0,0.83);
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.6em;
+}
+
+#cabecera #tagline {
+    margin:  0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
 #contenedor {
-    width: 100%;
-    padding: 1em;
+    width: 70%;
+    padding: 0;
     text-align: left;
     border: 1px solid red;
     margin: auto;
+    background-color: aqua;
 }
 
 #container h1 {
     font-size: 30px;
+    
+}
+#post {
+    padding: 1em;
 }
